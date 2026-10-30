@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.1
+
+- Sicurezza: in admin, provincia e regioni nel blocco `<script>` del form sono escapati (`JSON_HEX_TAG`), niente rottura della pagina con `</script>`.
+
 ## 1.2.0 — 2026-10-27
 - **Mappa a scelta dall'admin**: Google Maps (come prima, resta il default) oppure **OpenStreetMap** (Leaflet 1.9.4 incluso nel modulo, nessuna chiave né account, nessuna CDN).
 - Il JavaScript usa un motore per provider con la stessa interfaccia; "Indicazioni stradali" apre Google Maps o openstreetmap.org a seconda del provider.
