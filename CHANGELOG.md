@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.2
+
+- Fix: escaping dell'output JSON nel template admin `init_state.phtml` (conformità standard Magento2).
+
 ## 1.2.1
 
 - Sicurezza: in admin, provincia e regioni nel blocco `<script>` del form sono escapati (`JSON_HEX_TAG`), niente rottura della pagina con `</script>`.
