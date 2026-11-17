@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.3 - 2026-11-17
+
+- File LICENSE nella radice del pacchetto.
+- `module.xml` dichiara l'ordine di caricamento dopo i moduli Magento che il modulo usa.
+- `composer.json`: requisiti espliciti per PHP e per i moduli Magento usati.
+
 ## 1.2.2
 
 - Fix: escaping dell'output JSON nel template admin `init_state.phtml` (conformità standard Magento2).
