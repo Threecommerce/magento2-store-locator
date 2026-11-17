@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.4 - 2026-11-17
+
+- PHP 8.1 di nuovo supportato (la versione precedente richiedeva per errore PHP 8.2), per Magento 2.4.4 – 2.4.6.
+
 ## 1.2.3 - 2026-11-17
 
 - File LICENSE nella radice del pacchetto.
