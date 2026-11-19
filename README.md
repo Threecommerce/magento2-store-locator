@@ -4,7 +4,7 @@ A **store locator** page for Magento 2 and Mage-OS: list of your stores with a *
 
 ![Store locator page with store list and map on a Magento 2 storefront](images/store-locator-page.png)
 
-**Compatibility:** Magento Open Source / Adobe Commerce 2.4.4 – 2.4.9 · Mage-OS 1.x / 3.x · PHP 8.1 – 8.4 · Themes: Luma, Hyvä, Breeze
+**Compatibility:** Magento Open Source / Adobe Commerce 2.4.4 – 2.4.9 · Mage-OS 1.x / 3.x · PHP 8.1 – 8.5 · Themes: Luma, Hyvä, Breeze
 **License:** free · **Current version:** see [Releases](../../releases)
 
 ## Features
@@ -26,7 +26,7 @@ A **store locator** page for Magento 2 and Mage-OS: list of your stores with a *
 ## Requirements
 
 - Magento Open Source / Adobe Commerce 2.4.4+ or Mage-OS
-- PHP 8.1 – 8.4
+- PHP 8.1 – 8.5
 - Package: `threecommerce/m2-base` (installed automatically by Composer)
 - With Google Maps: an API key with *Maps JavaScript API* enabled (without a key the page still shows the store list)
 
