@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.6 - 2026-11-26
+
+- Fix: con il tema Luma (o derivati, es. Porto) e la mappa **OpenStreetMap** la pagina dello store locator mostrava la mappa in errore. Con RequireJS sulla pagina Leaflet si registra come modulo AMD e non crea `window.L`: ora viene caricato tramite RequireJS. Hyvä e Breeze invariati.
+
 ## 1.2.5 - 2026-11-18
 
 - Supporto a PHP 8.5 (Magento 2.4.9).
